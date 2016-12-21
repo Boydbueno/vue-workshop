@@ -1,0 +1,85 @@
+Vuejs workshop
+
+Mezelf voorstellen ( 10 min )
+
+Planning uitleggen ( 5 min )
+	- Begin Javascript
+		- Introductie
+	- Basis vue
+	- Toffere vue
+	- Google Chrome, Vue devtools, ES6 (check babel voor support andere browsers)
+	- Github repository
+
+Vragen ( 5 min )
+	- Wie VueJS video's gecheckt op Laracast?
+	- Wie met VueJS gewerkt?
+	- React / Angular / Backbone?
+
+Javascript ( 20 min )
+	- Testje
+		- (P) Simpele todo list
+			- Item toevoegen
+			- Item verwijderen
+		- (T) Bespreken todo list / live coding todo list
+
+
+VueJS, getting started ( 20 min )
+	- (T) Include scripts
+	- (T) New Vue instance
+	- (T) VueJS devtools
+		- Allow
+	- (T) Data
+	- (T) data binding
+		- js naar html (setTimeout)
+		- html naar js (form binding)
+	- (T) event handling
+		- Normale
+	- (T) for loop
+		- (item, index) in items
+
+Shopping list in VueJs ( 20 min )
+	- (P) Todo list maken met vue
+
+	- (T) Bespreken todo app / live coden
+		- prevent default shorthand
+		- delete item splice(index, 1)
+
+VueJs, continued ( 10 min )
+	- (T) Attribute binding
+	- (T) Class binding
+
+Shopping list, continued ( 30 min )
+	- (P) Niet kunnen submitten als input leeg is. En class toevoegen op input
+	- (P) Max 10 todo items, dan knop disabelen
+	- (P) Transitie voor invoegen item
+
+	- (T) Bespreken
+		- computed properties validatie input
+		- computed properties more then check
+
+- (T) Components
+	- (T) Web components
+		- Shadow DOM
+
+	- (T) Panels
+		- props
+		- slots  (<slot></slot>, named slots name="header" slot="header")
+
+	- (P) Progress
+		- bind styling v-bind:styling="{ width: prop }"
+
+	- (T) Progress accessible elsewhere
+		- Dynamic prop
+
+	- (T) Pages
+		- One main element
+		- Local components
+		- Swapping components <component v-bind:is="currentView">
+
+Flashcards
+
+
+- One Pager
+
+- VueJS + Vuex
+- VueJS + Laravel
