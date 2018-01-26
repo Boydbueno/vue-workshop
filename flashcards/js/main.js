@@ -44,7 +44,7 @@ new Vue({
             this.discardPileCards = [];
             this.deckCards.push(this.drawnCard);
             this.drawnCard = "";
-            shuffle(this.deckCards);
+            this.shuffle(this.deckCards);
         },
         shuffle(a) {
             for (let i = a.length; i; i--) {
